@@ -26,7 +26,6 @@ public class JmsConfigLocal {
 
     private SQSConnectionFactory sqsConnectionFactory;
 
-
     @Bean
     public DefaultJmsListenerContainerFactory jmsListenerContainerFactory() {
         sqsConnectionFactory = new SQSConnectionFactory(

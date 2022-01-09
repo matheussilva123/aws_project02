@@ -21,7 +21,6 @@ public class SnsMessage {
     @JsonProperty("MessageId")
     private String messageId;
 
-
     public String getMessage() {
         return message;
     }
